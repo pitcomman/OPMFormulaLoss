@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<set>
+  <server systemname="OPMFormulaLoss">
+    <!-- Database Server -->
+    <datasource>rthsrvopm01</datasource>
+    <!-- Database name -->
+    <catalog>OPMFormulaLoss</catalog>
+    <!-- Integrated Security(User) -->
+    <user>opm</user>
+    <!-- Persist Security Info(Password) -->
+    <password>opm</password>
+    <!-- factory name Info -->
+    <factoryname>RIST</factoryname>
+    <!-- Version Info -->
+    <version>1.00</version>
+    <!-- Purpos Info -->
+    <purpose>OPMFormulaLoss</purpose>
+    <auth>SQL</auth>
+    <!-- Others -->
+    <other></other>
+  </server>
+
+</set>

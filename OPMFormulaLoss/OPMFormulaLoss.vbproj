@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C1C5103F-B98B-451A-BA90-41674814E9B1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>OPMFormulaLoss.My.MyApplication</StartupObject>
+    <RootNamespace>OPMFormulaLoss</RootNamespace>
+    <AssemblyName>OPMFormulaLoss</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>\\rthis24\Sharing\ClickOnce\OPMFormulaLoss\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <ProductName>OPMFormulaLoss</ProductName>
+    <PublisherName>rist.co.th</PublisherName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>OPMFormulaLoss</WebPage>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>OPMFormulaLoss.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>OPMFormulaLoss.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>OPMFormulaLoss.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>OPMFormulaLoss.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Form\SystemLogo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>08852C8DF6E0DE5F44B90AC4BC827CD4581052FB</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>OPMFormulaLoss_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="OPMFormulaLossClass, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\OPMFormulaLossClass\bin\x86\Debug\OPMFormulaLossClass.dll</HintPath>
+    </Reference>
+    <Reference Include="Rist.OPMCmnClass, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\OPMFormulaLossClass\bin\x86\Debug\Rist.OPMCmnClass.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\Authentication.vb" />
+    <Compile Include="Common\Enum.vb" />
+    <Compile Include="Common\DataListMaking.vb" />
+    <Compile Include="Common\DBConnect.vb" />
+    <Compile Include="Common\LogInTable.vb" />
+    <Compile Include="Form\FrmDataMakingMenu.Designer.vb">
+      <DependentUpon>FrmDataMakingMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmDataMakingMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmDataMakingRun.Designer.vb">
+      <DependentUpon>FrmDataMakingRun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmDataMakingRun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmDataPrintingMenu.Designer.vb">
+      <DependentUpon>FrmDataPrintingMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmDataPrintingMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmLogIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmLogIn.Designer.vb">
+      <DependentUpon>FrmLogIn.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmEditMaterialSTDUnit.Designer.vb">
+      <DependentUpon>FrmEditMaterialSTDUnit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmEditMaterialSTDUnit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmMainMenu.Designer.vb">
+      <DependentUpon>FrmMainMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmMainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmMonthlyClosingMenu.Designer.vb">
+      <DependentUpon>FrmMonthlyClosingMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmMonthlyClosingMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmOpMonthMaintenance.Designer.vb">
+      <DependentUpon>FrmOpMonthMaintenance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmOpMonthMaintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmPrintPreview.Designer.vb">
+      <DependentUpon>FrmPrintPreview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmPrintPreview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mgr\DataGridLabelColumn.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Mgr\MdGrdFrm.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Report\FormulaLossAmount _NEW20220830.vb">
+      <DependentUpon>FormulaLossAmount _NEW20220830.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\FormulaLossAmount_BAK20220830.vb">
+      <DependentUpon>FormulaLossAmount_BAK20220830.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\FormulaLossAmount.vb">
+      <DependentUpon>FormulaLossAmount.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\FormulaLossAmount_BAK20220517.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FormulaLossAmount_BAK20220517.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\FormulaLossListSumRate.Designer.vb">
+      <DependentUpon>FormulaLossListSumRate.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\FormulaLossListSumRate.vb">
+      <DependentUpon>FormulaLossListSumRate.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\FormulaLossSumRate.vb">
+      <DependentUpon>FormulaLossSumRate.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\FormulaLossSumAmount.vb">
+      <DependentUpon>FormulaLossSumAmount.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\FormulaLossSumUse.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FormulaLossSumUse.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\FormulaLossListSumUse.Designer.vb">
+      <DependentUpon>FormulaLossListSumUse.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\FormulaLossListSumUse.vb">
+      <DependentUpon>FormulaLossListSumUse.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\FormulaLossListGrpUnit.Designer.vb">
+      <DependentUpon>FormulaLossListGrpUnit.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\FormulaLossListGrpUnit.vb">
+      <DependentUpon>FormulaLossListGrpUnit.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\FormulaLossListGrpAmount.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FormulaLossListGrpAmount.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\FormulaLossListGrpAmount.vb">
+      <DependentUpon>FormulaLossListGrpAmount.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\FormulaLossUnit.vb">
+      <DependentUpon>FormulaLossUnit.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\FormulaLossAmount_BAK20220513.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FormulaLossAmount_BAK20220513.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form\FrmDataMakingMenu.resx">
+      <DependentUpon>FrmDataMakingMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmDataPrintingMenu.resx">
+      <DependentUpon>FrmDataPrintingMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmEditMaterialSTDUnit.resx">
+      <DependentUpon>FrmEditMaterialSTDUnit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmMainMenu.resx">
+      <DependentUpon>FrmMainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmMonthlyClosingMenu.resx">
+      <DependentUpon>FrmMonthlyClosingMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\FormulaLossAmount _NEW20220830.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FormulaLossAmount _NEW20220830.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\FormulaLossAmount_BAK20220830.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FormulaLossAmount_BAK20220830.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\FormulaLossAmount.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FormulaLossAmount.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\FormulaLossAmount_BAK20220517.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FormulaLossAmount_BAK20220517.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\FormulaLossSumRate.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FormulaLossSumRate.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\FormulaLossSumAmount.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FormulaLossSumAmount.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\FormulaLossSumUse.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FormulaLossSumUse.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\FormulaLossUnit.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FormulaLossUnit.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\FormulaLossAmount_BAK20220513.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FormulaLossAmount_BAK20220513.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="OPMFormulaLoss_TemporaryKey.pfx" />
+    <None Include="Report\FormulaLossListSumRate.xsc">
+      <DependentUpon>FormulaLossListSumRate.xsd</DependentUpon>
+    </None>
+    <None Include="Report\FormulaLossListSumRate.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FormulaLossListSumRate.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\FormulaLossListSumRate.xss">
+      <DependentUpon>FormulaLossListSumRate.xsd</DependentUpon>
+    </None>
+    <None Include="Report\FormulaLossListSumUse.xsc">
+      <DependentUpon>FormulaLossListSumUse.xsd</DependentUpon>
+    </None>
+    <None Include="Report\FormulaLossListSumUse.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FormulaLossListSumUse.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\FormulaLossListSumUse.xss">
+      <DependentUpon>FormulaLossListSumUse.xsd</DependentUpon>
+    </None>
+    <None Include="Report\FormulaLossListGrpUnit.xsc">
+      <DependentUpon>FormulaLossListGrpUnit.xsd</DependentUpon>
+    </None>
+    <None Include="Report\FormulaLossListGrpUnit.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FormulaLossListGrpUnit.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\FormulaLossListGrpUnit.xss">
+      <DependentUpon>FormulaLossListGrpUnit.xsd</DependentUpon>
+    </None>
+    <None Include="Report\FormulaLossListGrpAmount.xsc">
+      <DependentUpon>FormulaLossListGrpAmount.xsd</DependentUpon>
+    </None>
+    <None Include="Report\FormulaLossListGrpAmount.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FormulaLossListGrpAmount.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\FormulaLossListGrpAmount.xss">
+      <DependentUpon>FormulaLossListGrpAmount.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Dbconfig.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Form\SystemLogo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Dbconfig.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="log4net">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Rist.OPMCmnClass">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

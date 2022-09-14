@@ -1,0 +1,14 @@
+D:\LOCAL.ADM\TR_MaterialLedger\CmnClassSln\CmnClass\obj\Debug\Apollo.CmnClass.BasePreviewReport.resources
+D:\LOCAL.ADM\TR_MaterialLedger\CmnClassSln\CmnClass\obj\Debug\Apollo.CmnClass.ComboBoxMultiColumn.resources
+D:\LOCAL.ADM\TR_MaterialLedger\CmnClassSln\CmnClass\obj\Debug\Apollo.CmnClass.DialogControl.resources
+D:\LOCAL.ADM\TR_MaterialLedger\CmnClassSln\CmnClass\obj\Debug\Apollo.CmnClass.FunctionKeyControl.resources
+D:\LOCAL.ADM\TR_MaterialLedger\CmnClassSln\CmnClass\obj\Debug\Apollo.CmnClass.KeyControl.resources
+D:\LOCAL.ADM\TR_MaterialLedger\CmnClassSln\CmnClass\obj\Debug\Apollo.CmnClass.PageBase.resources
+D:\LOCAL.ADM\TR_MaterialLedger\CmnClassSln\CmnClass\obj\Debug\Apollo.CmnClass.PrintScreenControl.resources
+D:\LOCAL.ADM\TR_MaterialLedger\CmnClassSln\CmnClass\obj\Debug\CmnClass.vbproj.GenerateResource.Cache
+D:\LOCAL.ADM\TR_MaterialLedger\CmnClassSln\CmnClass\bin\Apollo.CmnClass.dll
+D:\LOCAL.ADM\TR_MaterialLedger\CmnClassSln\CmnClass\bin\Apollo.CmnClass.pdb
+D:\LOCAL.ADM\TR_MaterialLedger\CmnClassSln\CmnClass\bin\Apollo.CmnClass.xml
+D:\LOCAL.ADM\TR_MaterialLedger\CmnClassSln\CmnClass\obj\Debug\Apollo.CmnClass.dll
+D:\LOCAL.ADM\TR_MaterialLedger\CmnClassSln\CmnClass\obj\Debug\Apollo.CmnClass.xml
+D:\LOCAL.ADM\TR_MaterialLedger\CmnClassSln\CmnClass\obj\Debug\Apollo.CmnClass.pdb

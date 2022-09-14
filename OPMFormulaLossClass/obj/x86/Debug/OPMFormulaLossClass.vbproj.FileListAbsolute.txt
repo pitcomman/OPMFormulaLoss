@@ -1,0 +1,46 @@
+D:\Project\OPM Formula Loss\OPMFormulaLoss\OPMFormulaLossClass\obj\x86\Debug\OPMFormulaLossClass.vbprojResolveAssemblyReference.cache
+D:\Project\OPM Formula Loss\OPMFormulaLoss\OPMFormulaLossClass\obj\x86\Debug\OPMFormulaLossClass.Resources.resources
+D:\Project\OPM Formula Loss\OPMFormulaLoss\OPMFormulaLossClass\obj\x86\Debug\OPMFormulaLossClass.vbproj.GenerateResource.Cache
+D:\Project\OPM Formula Loss\OPMFormulaLoss\OPMFormulaLossClass\bin\x86\Debug\OPMFormulaLossClass.dll
+D:\Project\OPM Formula Loss\OPMFormulaLoss\OPMFormulaLossClass\bin\x86\Debug\OPMFormulaLossClass.pdb
+D:\Project\OPM Formula Loss\OPMFormulaLoss\OPMFormulaLossClass\bin\x86\Debug\OPMFormulaLossClass.xml
+D:\Project\OPM Formula Loss\OPMFormulaLoss\OPMFormulaLossClass\obj\x86\Debug\OPMFormulaLossClass.dll
+D:\Project\OPM Formula Loss\OPMFormulaLoss\OPMFormulaLossClass\obj\x86\Debug\OPMFormulaLossClass.xml
+D:\Project\OPM Formula Loss\OPMFormulaLoss\OPMFormulaLossClass\obj\x86\Debug\OPMFormulaLossClass.pdb
+D:\Project\OPM Formula Loss\OPMFormulaLoss\OPMFormulaLossClass\bin\x86\Debug\Rist.OPMCmnClass.dll
+D:\Project\OPM Formula Loss\OPMFormulaLoss\OPMFormulaLossClass\bin\x86\Debug\Rist.OPMCmnClass.pdb
+D:\Project\OPM Formula Loss\OPMFormulaLoss\OPMFormulaLossClass\bin\x86\Debug\Rist.OPMCmnClass.xml
+D:\Project\OPM Formula Loss\OPMFormulaLoss (New)\OPMFormulaLossClass\bin\x86\Debug\OPMFormulaLossClass.dll
+D:\Project\OPM Formula Loss\OPMFormulaLoss (New)\OPMFormulaLossClass\bin\x86\Debug\OPMFormulaLossClass.pdb
+D:\Project\OPM Formula Loss\OPMFormulaLoss (New)\OPMFormulaLossClass\bin\x86\Debug\OPMFormulaLossClass.xml
+D:\Project\OPM Formula Loss\OPMFormulaLoss (New)\OPMFormulaLossClass\bin\x86\Debug\Rist.OPMCmnClass.dll
+D:\Project\OPM Formula Loss\OPMFormulaLoss (New)\OPMFormulaLossClass\bin\x86\Debug\Rist.OPMCmnClass.pdb
+D:\Project\OPM Formula Loss\OPMFormulaLoss (New)\OPMFormulaLossClass\bin\x86\Debug\Rist.OPMCmnClass.xml
+D:\Project\OPM Formula Loss\OPMFormulaLoss (New)\OPMFormulaLossClass\obj\x86\Debug\OPMFormulaLossClass.vbprojResolveAssemblyReference.cache
+D:\Project\OPM Formula Loss\OPMFormulaLoss (New)\OPMFormulaLossClass\obj\x86\Debug\OPMFormulaLossClass.Resources.resources
+D:\Project\OPM Formula Loss\OPMFormulaLoss (New)\OPMFormulaLossClass\obj\x86\Debug\OPMFormulaLossClass.vbproj.GenerateResource.Cache
+D:\Project\OPM Formula Loss\OPMFormulaLoss (New)\OPMFormulaLossClass\obj\x86\Debug\OPMFormulaLossClass.dll
+D:\Project\OPM Formula Loss\OPMFormulaLoss (New)\OPMFormulaLossClass\obj\x86\Debug\OPMFormulaLossClass.xml
+D:\Project\OPM Formula Loss\OPMFormulaLoss (New)\OPMFormulaLossClass\obj\x86\Debug\OPMFormulaLossClass.pdb
+C:\Users\007895\Desktop\OPMFormulaLoss\OPMFormulaLossClass\bin\x86\Debug\OPMFormulaLossClass.dll
+C:\Users\007895\Desktop\OPMFormulaLoss\OPMFormulaLossClass\bin\x86\Debug\OPMFormulaLossClass.pdb
+C:\Users\007895\Desktop\OPMFormulaLoss\OPMFormulaLossClass\bin\x86\Debug\OPMFormulaLossClass.xml
+C:\Users\007895\Desktop\OPMFormulaLoss\OPMFormulaLossClass\bin\x86\Debug\Rist.OPMCmnClass.dll
+C:\Users\007895\Desktop\OPMFormulaLoss\OPMFormulaLossClass\bin\x86\Debug\Rist.OPMCmnClass.xml
+C:\Users\007895\Desktop\OPMFormulaLoss\OPMFormulaLossClass\obj\x86\Debug\OPMFormulaLossClass.vbprojResolveAssemblyReference.cache
+C:\Users\007895\Desktop\OPMFormulaLoss\OPMFormulaLossClass\obj\x86\Debug\OPMFormulaLossClass.Resources.resources
+C:\Users\007895\Desktop\OPMFormulaLoss\OPMFormulaLossClass\obj\x86\Debug\OPMFormulaLossClass.vbproj.GenerateResource.Cache
+C:\Users\007895\Desktop\OPMFormulaLoss\OPMFormulaLossClass\obj\x86\Debug\OPMFormulaLossClass.dll
+C:\Users\007895\Desktop\OPMFormulaLoss\OPMFormulaLossClass\obj\x86\Debug\OPMFormulaLossClass.xml
+C:\Users\007895\Desktop\OPMFormulaLoss\OPMFormulaLossClass\obj\x86\Debug\OPMFormulaLossClass.pdb
+D:\Temporary File\FormulaLoss_OPM\OPMFormulaLoss\OPMFormulaLossClass\obj\x86\Debug\OPMFormulaLossClass.Resources.resources
+D:\Temporary File\FormulaLoss_OPM\OPMFormulaLoss\OPMFormulaLossClass\obj\x86\Debug\OPMFormulaLossClass.vbproj.GenerateResource.Cache
+D:\Temporary File\FormulaLoss_OPM\OPMFormulaLoss\OPMFormulaLossClass\obj\x86\Debug\OPMFormulaLossClass.xml
+D:\Temporary File\FormulaLoss_OPM\OPMFormulaLoss\OPMFormulaLossClass\obj\x86\Debug\OPMFormulaLossClass.pdb
+D:\Temporary File\FormulaLoss_OPM\OPMFormulaLoss\OPMFormulaLossClass\bin\x86\Debug\OPMFormulaLossClass.dll
+D:\Temporary File\FormulaLoss_OPM\OPMFormulaLoss\OPMFormulaLossClass\bin\x86\Debug\OPMFormulaLossClass.pdb
+D:\Temporary File\FormulaLoss_OPM\OPMFormulaLoss\OPMFormulaLossClass\bin\x86\Debug\OPMFormulaLossClass.xml
+D:\Temporary File\FormulaLoss_OPM\OPMFormulaLoss\OPMFormulaLossClass\bin\x86\Debug\Rist.OPMCmnClass.dll
+D:\Temporary File\FormulaLoss_OPM\OPMFormulaLoss\OPMFormulaLossClass\bin\x86\Debug\Rist.OPMCmnClass.xml
+D:\Temporary File\FormulaLoss_OPM\OPMFormulaLoss\OPMFormulaLossClass\obj\x86\Debug\OPMFormulaLossClass.dll
+D:\Temporary File\FormulaLoss_OPM\OPMFormulaLoss\OPMFormulaLossClass\obj\x86\Debug\OPMFormulaLossClass.vbprojResolveAssemblyReference.cache

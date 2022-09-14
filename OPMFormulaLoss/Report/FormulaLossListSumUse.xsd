@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="FormulaLossListSumUse" targetNamespace="http://tempuri.org/FormulaLossListGrpAmount.xsd" xmlns:mstns="http://tempuri.org/FormulaLossListGrpAmount.xsd" xmlns="http://tempuri.org/FormulaLossListGrpAmount.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="FormulaLossListSumUse" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="FormulaLossListSumUse" msprop:Generator_UserDSName="FormulaLossListSumUse">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SumUse0192C" msprop:Generator_TableClassName="SumUse0192CDataTable" msprop:Generator_TableVarName="tableSumUse0192C" msprop:Generator_TablePropName="SumUse0192C" msprop:Generator_RowDeletingName="SumUse0192CRowDeleting" msprop:Generator_RowChangingName="SumUse0192CRowChanging" msprop:Generator_RowEvHandlerName="SumUse0192CRowChangeEventHandler" msprop:Generator_RowDeletedName="SumUse0192CRowDeleted" msprop:Generator_UserTableName="SumUse0192C" msprop:Generator_RowChangedName="SumUse0192CRowChanged" msprop:Generator_RowEvArgName="SumUse0192CRowChangeEvent" msprop:Generator_RowClassName="SumUse0192CRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OpMonth" msprop:Generator_ColumnVarNameInTable="columnOpMonth" msprop:Generator_ColumnPropNameInRow="OpMonth" msprop:Generator_ColumnPropNameInTable="OpMonthColumn" msprop:Generator_UserColumnName="OpMonth" type="xs:string" minOccurs="0" />
+              <xs:element name="MaterialCode" msprop:Generator_ColumnVarNameInTable="columnMaterialCode" msprop:Generator_ColumnPropNameInRow="MaterialCode" msprop:Generator_ColumnPropNameInTable="MaterialCodeColumn" msprop:Generator_UserColumnName="MaterialCode" type="xs:string" minOccurs="0" />
+              <xs:element name="MaterialName" msprop:Generator_ColumnVarNameInTable="columnMaterialName" msprop:Generator_ColumnPropNameInRow="MaterialName" msprop:Generator_ColumnPropNameInTable="MaterialNameColumn" msprop:Generator_UserColumnName="MaterialName" type="xs:string" minOccurs="0" />
+              <xs:element name="Spec" msprop:Generator_ColumnVarNameInTable="columnSpec" msprop:Generator_ColumnPropNameInRow="Spec" msprop:Generator_ColumnPropNameInTable="SpecColumn" msprop:Generator_UserColumnName="Spec" type="xs:string" minOccurs="0" />
+              <xs:element name="MaterialUnit" msprop:Generator_ColumnVarNameInTable="columnMaterialUnit" msprop:Generator_ColumnPropNameInRow="MaterialUnit" msprop:Generator_ColumnPropNameInTable="MaterialUnitColumn" msprop:Generator_UserColumnName="MaterialUnit" type="xs:string" minOccurs="0" />
+              <xs:element name="StandardUse_0192C" msprop:Generator_ColumnVarNameInTable="columnStandardUse_0192C" msprop:Generator_ColumnPropNameInRow="StandardUse_0192C" msprop:Generator_ColumnPropNameInTable="StandardUse_0192CColumn" msprop:Generator_UserColumnName="StandardUse_0192C" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ActualUse_0192C" msprop:Generator_ColumnVarNameInTable="columnActualUse_0192C" msprop:Generator_ColumnPropNameInRow="ActualUse_0192C" msprop:Generator_ColumnPropNameInTable="ActualUse_0192CColumn" msprop:Generator_UserColumnName="ActualUse_0192C" type="xs:decimal" minOccurs="0" />
+              <xs:element name="StandardUse_01C5C" msprop:Generator_ColumnVarNameInTable="columnStandardUse_01C5C" msprop:Generator_ColumnPropNameInRow="StandardUse_01C5C" msprop:Generator_ColumnPropNameInTable="StandardUse_01C5CColumn" msprop:Generator_UserColumnName="StandardUse_01C5C" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ActualUse_01C5C" msprop:Generator_ColumnVarNameInTable="columnActualUse_01C5C" msprop:Generator_ColumnPropNameInRow="ActualUse_01C5C" msprop:Generator_ColumnPropNameInTable="ActualUse_01C5CColumn" msprop:Generator_UserColumnName="ActualUse_01C5C" type="xs:decimal" minOccurs="0" />
+              <xs:element name="StandardUse_Total" msprop:Generator_ColumnVarNameInTable="columnStandardUse_Total" msprop:Generator_ColumnPropNameInRow="StandardUse_Total" msprop:Generator_ColumnPropNameInTable="StandardUse_TotalColumn" msprop:Generator_UserColumnName="StandardUse_Total" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ActualUse_Total" msprop:Generator_ColumnVarNameInTable="columnActualUse_Total" msprop:Generator_ColumnPropNameInRow="ActualUse_Total" msprop:Generator_ColumnPropNameInTable="ActualUse_TotalColumn" msprop:Generator_UserColumnName="ActualUse_Total" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ProcessCode" msprop:Generator_ColumnVarNameInTable="columnProcessCode" msprop:Generator_ColumnPropNameInRow="ProcessCode" msprop:Generator_ColumnPropNameInTable="ProcessCodeColumn" msprop:Generator_UserColumnName="ProcessCode" type="xs:string" minOccurs="0" />
+              <xs:element name="LossAmount_0192C" msprop:Generator_ColumnVarNameInTable="columnLossAmount_0192C" msprop:Generator_ColumnPropNameInRow="LossAmount_0192C" msprop:Generator_ColumnPropNameInTable="LossAmount_0192CColumn" msprop:Generator_UserColumnName="LossAmount_0192C" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LossAmount_01C5C" msprop:Generator_ColumnVarNameInTable="columnLossAmount_01C5C" msprop:Generator_ColumnPropNameInRow="LossAmount_01C5C" msprop:Generator_ColumnPropNameInTable="LossAmount_01C5CColumn" msprop:Generator_UserColumnName="LossAmount_01C5C" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LossAmount_Total" msprop:Generator_ColumnVarNameInTable="columnLossAmount_Total" msprop:Generator_ColumnPropNameInRow="LossAmount_Total" msprop:Generator_ColumnPropNameInTable="LossAmount_TotalColumn" msprop:Generator_UserColumnName="LossAmount_Total" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
